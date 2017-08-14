@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Zhihu Realtime Questions",
+  "description": "Get latest questions from www.zhihu.com",
+  "version": "1.0",
+
+  "browser_action": {
+    //"default_popup": "popup.html",
+    //"default_icon": "icon.png"
+    "default_icon": "zhihu.png"
+  },
+
+  "background": {
+     //"persistent": false,
+     "scripts": ["background.js"]
+   },
+
+  "permissions": [
+    "tabs",
+    "storage",
+    "*://*/*"
+  ]
+}

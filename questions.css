@@ -1,0 +1,34 @@
+body {
+  background-color: #121e31;
+  font-size: 13px;
+  min-width: 1357px;
+  overflow-x: hidden;
+}
+
+img {
+  margin: 5px;
+  border: 2px solid black;
+  vertical-align: middle;
+  width: 75px;
+  height: 75px;
+}
+
+a:link {
+  color: #00FF00;
+}
+
+a:hover {
+  color: #00FF00;
+}
+
+a:link.hl {
+  color: rgb(239, 179, 25);
+}
+
+a:link.readed {
+  color: #259;
+}
+
+.hidden_element {
+  display: none;
+}
